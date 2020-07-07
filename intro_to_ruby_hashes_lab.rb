@@ -71,16 +71,16 @@ def monopoly_with_fourth_tier
     :shortline_railroad => Hash.new
   }
   monopoly[:railroads][:names][:reading_railroad] = {
-     "mortgage value" => "100"
+     :mortgage_value => 100
   }
   monopoly[:railroads][:names][:pennsylvania_railroad] = {
-    "mortgage value" => "200"
+    :mortgage_value => 200
   }
   monopoly[:railroads][:names][:b_and_o_railroad] = {
-    "mortgage value" => "400"
+    :mortgage_value => 400
   }
   monopoly[:railroads][:names][:shortline_railroad] = {
-    "mortgage value" => "800"
+    :mortgage_value => 800
   }
   monopoly
 end
